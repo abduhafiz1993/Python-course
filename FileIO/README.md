@@ -24,3 +24,6 @@ CSV stands for “comma separated values”.
 
 Notice that rstrip removes the end of each line in our CSV file. split tells the compiler where to find the end of each of our values in our CSV file. row[0] is the first element in each line of our CSV file. row[1] is the second element in each line in our CSV file.
 
+## CSV built in function
+
+Python’s built-in csv library comes with an object called a reader. As the name suggests, we can use a reader to read our CSV file despite the extra comma in “Number Four, Privet Drive”. A reader works in a for loop, where each iteration the reader gives us another row from our CSV file. This row itself is a list, where each value in the list corresponds to an element in that row. row[0], for example, is the first element of the given row, while row[1] is the second element.
