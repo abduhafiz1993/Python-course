@@ -14,3 +14,7 @@ p until this point, we have been exclusively writing to a file. What if we want 
 ## readline()
 
  readlines has a special ability to read all the lines of a file and store them in a file called lines. Running your program, you will notice that the output is quite ugly. There seem to be multiple line breaks where there should be only one.
+## rstrip()
+
+rstrip has the effect of removing the extraneous line break at the end of each line.
+
