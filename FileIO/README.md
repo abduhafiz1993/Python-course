@@ -26,4 +26,16 @@ Notice that rstrip removes the end of each line in our CSV file. split tells the
 
 ## CSV built in function
 
-Python’s built-in csv library comes with an object called a reader. As the name suggests, we can use a reader to read our CSV file despite the extra comma in “Number Four, Privet Drive”. A reader works in a for loop, where each iteration the reader gives us another row from our CSV file. This row itself is a list, where each value in the list corresponds to an element in that row. row[0], for example, is the first element of the given row, while row[1] is the second element.
+Python’s built-in csv library comes with an object called a reader. As the name suggests, we can use a reader to read our CSV file despite the extra comma in “Number Four, Privet Drive”. 
+A reader works in a for loop, where each iteration the reader gives us another row from our CSV file. This row itself is a list, 
+where each value in the list corresponds to an element in that row. row[0], 
+for example, is the first element of the given row, while row[1] is the second element.
+
+## DictReader()
+
+Notice that we have replaced reader with DictReader, which returns one dictionary at a time. Also, notice that the compiler will directly access the row dictionary, getting the name and home of each student. This is an example of coding defensively. As long as the person designing the CSV file has inputted the correct header information on the first line, we can access that information using our program.
+
+Up until this point, we have been reading CSV files. What if we want to write to a CSV file?
+To begin, let’s clean up our files a bit. First, delete the students.csv file by typing rm students.csv in the terminal window. This command will only work if you’re in the same folder as your students.csv file
+
+
