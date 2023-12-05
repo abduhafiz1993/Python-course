@@ -18,3 +18,7 @@ p until this point, we have been exclusively writing to a file. What if we want 
 
 rstrip has the effect of removing the extraneous line break at the end of each line.
 
+## CSV
+
+CSV stands for “comma separated values”.
+
