@@ -38,4 +38,8 @@ Notice that we have replaced reader with DictReader, which returns one dictionar
 Up until this point, we have been reading CSV files. What if we want to write to a CSV file?
 To begin, let’s clean up our files a bit. First, delete the students.csv file by typing rm students.csv in the terminal window. This command will only work if you’re in the same folder as your students.csv file
 
+## Binary Files and PIL
 
+One more type of file that we will discuss today is a binary file. A binary file is simply a collection of ones and zeros. This type of file can store anything including, music and image data.
+There is a popular Python library called PIL that works well with image files.
+Animated GIFs are a popular type of image file that has many image files within it that are played in sequence over and over again, creating a simplistic animation or video effect.
