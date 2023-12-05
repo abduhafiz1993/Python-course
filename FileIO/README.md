@@ -22,3 +22,5 @@ rstrip has the effect of removing the extraneous line break at the end of each l
 
 CSV stands for “comma separated values”.
 
+Notice that rstrip removes the end of each line in our CSV file. split tells the compiler where to find the end of each of our values in our CSV file. row[0] is the first element in each line of our CSV file. row[1] is the second element in each line in our CSV file.
+
