@@ -14,4 +14,8 @@ pytest is a third-party library that allows you to unit test your program. That 
 To utilize pytest please type pip install pytest into your console window.
 Before applying pytest to our own program.
 
+## Organizing Tests into Folders
 
+Unit testing code using multiple tests is so common that you have the ability to run a whole folder of tests with a single command.
+First, in the terminal window, execute mkdir test to create a folder called test.
+Then, to create a test within that folder, type in the terminal window code test/test_hello.py. Notice that test/ instructs the terminal to create test_hello.py in the folder called test.
