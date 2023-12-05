@@ -7,3 +7,11 @@ Right now, our code tests two conditions. If we wanted to test many more conditi
 ## Assert 
 
 Python’s assert command allows us to tell the compiler that something, some assertion, is true.
+
+## Pytest
+
+pytest is a third-party library that allows you to unit test your program. That is, you can test your functions within your program.
+To utilize pytest please type pip install pytest into your console window.
+Before applying pytest to our own program.
+
+
