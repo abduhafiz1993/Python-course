@@ -13,3 +13,9 @@ Any time you create a class and you utilize that blueprint to create something, 
 
 ### raise
 Object-oriented program encourages you to encapusulate all the functionality of a class within the class definition. What if something goes wrong? What if someone tries to type in something random? What if someone tries to create a student without a name? 
+
+### __str__
+
+def __str__(self) provides a means by which a student is returned when called. Therefore, you can now, as the programmer, print an object, its attributes, or almost anything you desire related to that object.
+__str__ is a built-in method that comes with Python classes. 
+
