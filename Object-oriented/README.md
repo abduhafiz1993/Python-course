@@ -19,3 +19,4 @@ Object-oriented program encourages you to encapusulate all the functionality of 
 def __str__(self) provides a means by which a student is returned when called. Therefore, you can now, as the programmer, print an object, its attributes, or almost anything you desire related to that object.
 __str__ is a built-in method that comes with Python classes. 
 
+#### It just so happens that we can create our own methods for a class as well! 
